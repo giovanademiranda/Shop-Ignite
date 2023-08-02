@@ -1,6 +1,6 @@
-import { styled } from "..";
+import { styled } from ".."
 
-export const HomeConatiner = styled('main', {
+export const HomeContainer = styled('main', {
   display: 'flex',
   width: '100%',
   maxWidth: 'calc(100vw - ((100vw - 1180px) / 2))',
@@ -14,7 +14,6 @@ export const Product = styled('a', {
   cursor: 'pointer',
   position: 'relative',
   overflow: 'hidden',
-  Width: 540,
 
   display: 'flex',
   alignItems: 'center',
@@ -42,12 +41,13 @@ export const Product = styled('a', {
 
     strong: {
       fontSize: '$lg',
+      color: '$gray100',
     },
 
     span: {
       fontSize: '$xl',
       fontWeight: 'bold',
-      color: '$green300'
+      color: '$green300',
     }
   },
 
