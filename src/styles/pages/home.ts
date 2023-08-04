@@ -1,4 +1,5 @@
-import { styled } from ".."
+import { styled } from "@stitches/react"
+
 
 export const HomeContainer = styled('main', {
   display: 'flex',
@@ -24,7 +25,7 @@ export const Product = styled('div', {
   },
 
   footer: {
-    postion: 'absolute',
+    position: 'absolute',
     bottom: '0.25rem',
     left: '0.25rem',
     right: '0.25rem',

@@ -1,3 +1,4 @@
+import 'keen-slider/keen-slider.min.css'
 import { AppProps } from "next/app"
 import { globalStyles } from "../styles/global"
 import { Container, Header } from '../styles/pages/app'

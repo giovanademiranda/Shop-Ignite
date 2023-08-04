@@ -19,6 +19,7 @@ export const SuccessContainer = styled('main', {
     maxWidth: 560,
     textAlign: 'center',
     marginTop: '2rem',
+    lineHeight: 1.4,
   },
 
   a: {
@@ -42,6 +43,7 @@ export const ImageContainer = styled('div', {
   background: 'linear-gradient(180deg, #1ea483 0%, #7465d4 100%)',
   borderRadius: 8,
   padding: '0.25rem',
+  marginTop: '4rem',
 
   display: 'flex',
   alignItems: 'center',
